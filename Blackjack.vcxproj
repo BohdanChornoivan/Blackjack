@@ -131,7 +131,7 @@
     <ClCompile Include="desk.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="generic_player.cpp" />
-    <ClCompile Include="hadn.cpp" />
+    <ClCompile Include="hand.cpp" />
     <ClCompile Include="house.cpp" />
     <ClCompile Include="player.cpp" />
   </ItemGroup>
@@ -139,7 +139,7 @@
     <ClInclude Include="card.h" />
     <ClInclude Include="desk.h" />
     <ClInclude Include="generic_player.h" />
-    <ClInclude Include="hadn.h" />
+    <ClInclude Include="hand.h" />
     <ClInclude Include="house.h" />
     <ClInclude Include="player.h" />
   </ItemGroup>

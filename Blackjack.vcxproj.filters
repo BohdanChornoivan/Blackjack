@@ -21,7 +21,7 @@
     <ClCompile Include="card.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hadn.cpp">
+    <ClCompile Include="hand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="desk.cpp">
@@ -41,7 +41,7 @@
     <ClInclude Include="card.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hadn.h">
+    <ClInclude Include="hand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="desk.h">
