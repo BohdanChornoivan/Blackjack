@@ -8,7 +8,7 @@ public:
 	enum rank {ACE = 1, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN,
 	JACK, QUEEN, KING};
 	enum suit {CLUBS, DIAMONDS, HEARTS, SPADES};
-	Card(rank r, suit s, bool ifu);
+	Card(rank r = ACE, suit s = CLUBS, bool ifu = true);
 	int GetValue() const;
 	void Flip();
 private:
