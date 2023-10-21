@@ -10,12 +10,12 @@ Hand::~Hand()
 	m_Cards.clear();
 }
 
-void Hand::Add(Card* card)
+void Hand::Add(Card* pCard)
 {
-	m_Cards.push_back(card);
+	m_Cards.push_back(pCard);
 }
 
-void Hand::GetClear()
+void Hand::Clear()
 {
 	std::vector<Card*>::iterator iter = m_Cards.begin();
 	for (iter = m_Cards.begin(); iter != m_Cards.end(); ++iter)
@@ -59,5 +59,6 @@ int Hand::GetTotal() const
 	{
 		total += 10;
 	}
+
 	return total;
 }

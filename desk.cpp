@@ -13,7 +13,7 @@ Desk::~Desk()
 
 void Desk::Populate()
 {
-	GetClear();
+	Clear();
 	for (int s = Card::CLUBS; s <= Card::SPADES; ++s)
 	{
 		for (int r = Card::ACE; r <= Card::KING; ++r)
@@ -37,7 +37,7 @@ void Desk::Deal(Hand& aHand)
 	}
 	else
 	{
-		std::cout << "Out of cards. Unable to deal.";
+		std::cout << "Out of cards. Unable to deal. ";
 	}
 }
 
