@@ -33,10 +33,13 @@ void Desk::Deal(Hand& aHand)
 	if (!m_Cards.empty())
 	{
 		aHand.Add(m_Cards.back());
+		DeckRelease.push_back(m_Cards.back());
 		m_Cards.pop_back();
 	}
 	else
 	{
+		m_Cards = DeckRelease;
+		DeckRelease.clear();
 		std::cout << "Out of cards. Unable to deal. ";
 	}
 }
