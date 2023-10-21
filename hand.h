@@ -8,7 +8,7 @@ public:
 	Hand();
 	virtual ~Hand();
 	void Add(Card* card);
-	void GetClear();
+	void Clear();
 	int GetTotal() const;
 protected:
 	std::vector<Card*> m_Cards;

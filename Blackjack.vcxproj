@@ -133,11 +133,13 @@
     <ClCompile Include="generic_player.cpp" />
     <ClCompile Include="hand.cpp" />
     <ClCompile Include="house.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="card.h" />
     <ClInclude Include="desk.h" />
+    <ClInclude Include="game.h" />
     <ClInclude Include="generic_player.h" />
     <ClInclude Include="hand.h" />
     <ClInclude Include="house.h" />

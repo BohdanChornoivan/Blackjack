@@ -7,9 +7,6 @@ House::House(const std::string& name) :
 House::~House()
 {}
 
-House::~House()
-{}
-
 bool House::IsHitting() const
 {
 	return (GetTotal() <= 16);

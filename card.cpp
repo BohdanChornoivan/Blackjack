@@ -6,9 +6,6 @@ Card::Card(rank r, suit s, bool ifu) :
 	m_IsFaceUp(ifu)
 {}
 
-std::ostream& operator<<(std::ostream& os, Card& aCard)
-{}
-
 int Card::GetValue() const
 {
 	int value = 0;
@@ -21,7 +18,7 @@ int Card::GetValue() const
 			value = 10;
 		}
 	}
-	return 0;
+	return value;
 }
 
 void Card::Flip() {

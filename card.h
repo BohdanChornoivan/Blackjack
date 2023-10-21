@@ -3,11 +3,11 @@
 
 class Card
 {
-	friend std::ostream& operator<<(std::ostream& os, Card& aCard);
 public:
 	enum rank {ACE = 1, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN,
 	JACK, QUEEN, KING};
 	enum suit {CLUBS, DIAMONDS, HEARTS, SPADES};
+	friend std::ostream& operator<<(std::ostream& os, const Card& aCard);
 	Card(rank r = ACE, suit s = CLUBS, bool ifu = true);
 	int GetValue() const;
 	void Flip();
@@ -16,4 +16,3 @@ private:
 	suit m_Suit;
 	bool m_IsFaceUp;
 };
-
